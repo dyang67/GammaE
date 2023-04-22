@@ -21,7 +21,7 @@ If you find this code useful, please consider citing the following paper.
 ```
 @inproceedings{EMNLP2022_GAMMAE,
  author = {Dong Yang and Peijun Qing and Yang Li and Haonan Lu and Xiaodong Lin},
- booktitle = {Advances in Empirical Methods in Natural Language Processing},
+ booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
  title = {GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs},
  year = {2022}
 }
