@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --cuda --do_train --do_test --data_path /home/gammae/data/FB15k-237-betae -n 128 -b 512 -d 800 -g 60 -lr 0.0001 --max_steps 450001 --cpu_num 3 --test_batch_size 4 --geo gamma --drop 0.1 --valid_steps 30000 -gammam "(1600,4)" --seed 42
+
+CUDA_VISIBLE_DEVICES=0 python main.py --cuda --do_train --do_test --data_path /home/gammae/data/FB15k-237-betae -n 128 -b 512 -d 800 -g 60 -lr 0.0001 --max_steps 450001 --cpu_num 3 --test_batch_size 4 --geo gamma --drop 0.1 --valid_steps 30000 -gammam "(1600,4)" --seed 42
+
+CUDA_VISIBLE_DEVICES=0 python main.py --cuda --do_train --do_test --data_path /home/gammae/data/NELL-betae -n 128 -b 512 -d 800 -g 60 -lr 0.00005 --max_steps 450001 --cpu_num 3 --test_batch_size 4 --geo gamma --drop 0.1 --valid_steps 30000 -gammam "(1600,4)" --seed 42
