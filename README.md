@@ -29,12 +29,3 @@ If you find this code useful, please consider citing the following paper.
 
 ## Acknowledgement
 We refer to the code of [KGReasoning](https://github.com/snap-stanford/KGReasoning). Thanks for their contributions.
-
-## Other Repositories
-If you are interested in our work, you may find the following papers useful.
-
-**Duality-Induced Regularizer for Tensor Factorization Based Knowledge Graph Completion.**
-*Zhanqiu Zhang, Jianyu Cai, Jie Wang.* NeurIPS 2020. [[paper](https://arxiv.org/abs/2011.05816)] [[code](https://github.com/MIRALab-USTC/KGE-DURA)]
-
-**Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction.**
-*Zhanqiu Zhang, Jianyu Cai, Yongdong Zhang, Jie Wang.* AAAI 2020. [[paper](https://arxiv.org/pdf/1911.09419.pdf)] [[code](https://github.com/MIRALab-USTC/KGE-HAKE)]
