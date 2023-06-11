@@ -89,7 +89,8 @@ class GammaUnion(nn.Module):
         o = 1 / (beta_embeddings * attention2)
         k_sum = torch.pow(torch.sum(k * o, dim=0), 2) / torch.sum(torch.pow(o, 2) * k, dim=0)
         o_sum = torch.sum(k * o, dim=0) / (k_sum * o.shape[0])
-
+        # Welch–Satterthwaite equation
+        
         alpha_embedding = k_sum
         beta_embedding = o_sum
         alpha_embedding[torch.abs(alpha_embedding) < 1e-4] = 1e-4
